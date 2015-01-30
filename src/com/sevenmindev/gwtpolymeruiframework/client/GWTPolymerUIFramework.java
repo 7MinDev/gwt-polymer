@@ -1,6 +1,6 @@
-package com.7mindev.gwtpolymeruiframework.client;
+package com.sevenmindev.gwtpolymeruiframework.client;
 
-import com.7mindev.gwtpolymeruiframework.shared.FieldVerifier;
+import com.sevenmindev.gwtpolymeruiframework.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;

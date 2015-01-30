@@ -20,7 +20,7 @@
   <!-- Other module inherits                                      -->
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='com.7mindev.gwtpolymeruiframework.client.GWTPolymerUIFramework'/>
+  <entry-point class='com.sevenmindev.gwtpolymeruiframework.client.GWTPolymerUIFramework'/>
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>

@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.7mindev.gwtpolymeruiframework.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.sevenmindev.gwtpolymeruiframework.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>

@@ -46,7 +46,7 @@
       <arg value="war"/>
       <!-- Additional arguments like -style PRETTY or -logLevel DEBUG -->
       <arg line="${gwt.args}"/>
-      <arg value="com.7mindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
+      <arg value="com.sevenmindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
     </java>
   </target>
 
@@ -63,8 +63,8 @@
       <arg value="war"/>
       <!-- Additional arguments like -style PRETTY, -logLevel DEBUG or -nosuperDevMode -->
       <arg line="${gwt.args}"/>
-      <arg value="com.7mindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
-      <arg value="com.7mindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
+      <arg value="com.sevenmindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
+      <arg value="com.sevenmindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
     </java>
   </target>
 
