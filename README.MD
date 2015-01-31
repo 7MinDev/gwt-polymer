@@ -4,6 +4,17 @@ We’re trying to combine GWT and Polymer like in this project: https://github.c
 
 (Work in progress)
 
+# Adding Polymer elements
+
+New elements are installed using Bower, e.g. the `core-toolbar` element:
+
+```
+cd src/main/webapp/polymer
+bower install Polymer/core-toolbar
+```
+
+The component has to be added to the `src/main/webapp/GWTPolymer.html` file.
+
 # Run locally
 
 Run once (and every time you change something in the `war` directory):
