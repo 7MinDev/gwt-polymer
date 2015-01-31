@@ -23,7 +23,9 @@ The component has to be added to the `src/main/webapp/GWTPolymer.html`, here:
 
 TODO: add manual for writing java polymer stub (like `CoreIconButton`)
 
-# Run locally
+# Run Locally
+
+## Install / Update
 
 Install / update polymer via Bower (has to be run each time the Bower dependencies change):
 
@@ -40,7 +42,7 @@ Run once (and every time you change something in the `war` directory):
 mvn package       # generate a .war package ready to deploy
 ```
 
-Run debug mode:
+## Run Debug Mode
 
 ```
 mvn gwt:run       # run development mode
@@ -48,24 +50,19 @@ mvn gwt:run       # run development mode
 
 A window will appear. Hit the "Launch Default Browser" button or "Copy to clipboard" and use another browser. If you changed something, you need to reload the page to recompile.
 
-Run tests:
+## Run Tests
 
 ```
 mvn test          # run all the tests (gwt and junit)
 ```
 
-Clean temp files:
+## Clean Temp Files
 
 ```
 mvn clean         # delete temporary stuff
 ```
 
-
-
-mvn clean         # delete temporary stuff
-mvn test          # run all the tests (gwt and junit)
-mvn gwt:run       # run development mode
-mvn package       # generate a .war package ready to deploy
+## Other Stuff
 
 For more information about other available goals, read [Maven](http://maven.apache.org) and [gwt-maven-plugin](http://mojo.codehaus.org/gwt-maven-plugin) documentation.
 
