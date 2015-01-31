@@ -10,7 +10,7 @@ New elements are installed using Bower, e.g. the `core-toolbar` element:
 
 ```
 cd src/main/webapp/polymer
-bower install Polymer/core-toolbar
+bower install --save Polymer/core-toolbar
 ```
 
 The component has to be added to the `src/main/webapp/GWTPolymer.html` file.
