@@ -20,6 +20,9 @@
         <setting name="gwtSdkUrl" value="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.7.0/" />
         <setting name="gwtSdkType" value="maven" />
         <setting name="webFacet" value="Web" />
+        <packaging>
+          <module name="com.sevenmindev.gwtpolymer.GWTPolymerJUnit" enabled="false" />
+        </packaging>
       </configuration>
     </facet>
   </component>
