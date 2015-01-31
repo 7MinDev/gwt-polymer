@@ -13,6 +13,8 @@ cd src/main/webapp/polymer
 bower install --save Polymer/core-toolbar
 ```
 
+Running it with `--save` will add the dependencies to the `src/main/webapp/polymer/bower.json` file.
+
 The component has to be added to the `src/main/webapp/GWTPolymer.html`, here:
 
 ```
@@ -22,6 +24,15 @@ The component has to be added to the `src/main/webapp/GWTPolymer.html`, here:
 TODO: add manual for writing java polymer stub (like `CoreIconButton`)
 
 # Run locally
+
+Install / update polymer via Bower (has to be run each time the Bower dependencies change):
+
+TODO put this step into the `package` Maven task
+
+```
+cd src/main/webapp/polymer
+bower update
+```
 
 Run once (and every time you change something in the `war` directory):
 
