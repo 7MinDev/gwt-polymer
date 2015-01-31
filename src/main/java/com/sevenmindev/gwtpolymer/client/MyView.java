@@ -34,7 +34,7 @@ public class MyView extends Composite {
     menuButton.addEventListener("click", new EventListener() {
       @Override 
       public void handleEvent(Event event) {
-       // drawerPanel.togglePanel();
+          drawerPanel.togglePanel();
       }
     });
 
