@@ -19,6 +19,8 @@ The component has to be added to the `src/main/webapp/GWTPolymer.html`, here:
 <link rel="import" href="/polymer/bower_components/core-toolbar/core-toolbar.html">
 ```
 
+TODO: add manual for writing java polymer stub (like `CoreIconButton`)
+
 # Run locally
 
 Run once (and every time you change something in the `war` directory):
