@@ -1,3 +1,9 @@
+# What’s it all about?
+
+We’re trying to combine GWT and Polymer like in this project: https://github.com/7MinDev/polymergwt
+
+(Work in progress)
+
 # Run locally
 
 Run once (and every time you change something in the `war` directory):
