@@ -16,7 +16,7 @@ bower install --save Polymer/core-toolbar
 The component has to be added to the `src/main/webapp/GWTPolymer.html`, here:
 
 ```
-<link rel="import" href="/polymer/core-toolbar/core-toolbar.html">
+<link rel="import" href="/polymer/bower_components/core-toolbar/core-toolbar.html">
 ```
 
 # Run locally
