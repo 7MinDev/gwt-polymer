@@ -8,17 +8,17 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.sevenmindev.gwtpolymeruiframework.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.sevenmindev.gwtpolymer.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/gwtpolymeruiframework/greet</url-pattern>
+    <url-pattern>/gwtpolymer/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>GWTPolymerUIFramework.html</welcome-file>
+    <welcome-file>GWTPolymer.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

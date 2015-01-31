@@ -1,6 +1,6 @@
-package com.sevenmindev.gwtpolymeruiframework.client;
+package com.sevenmindev.gwtpolymer.client;
 
-import com.sevenmindev.gwtpolymeruiframework.shared.FieldVerifier;
+import com.sevenmindev.gwtpolymer.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -20,7 +20,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
-public class GWTPolymerUIFramework implements EntryPoint {
+public class GWTPolymer implements EntryPoint {
   /**
    * The message displayed to the user when the server cannot be reached or
    * returns an error.

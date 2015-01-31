@@ -1,4 +1,4 @@
-package com.sevenmindev.gwtpolymeruiframework.client;
+package com.sevenmindev.gwtpolymer.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 

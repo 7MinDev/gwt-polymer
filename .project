@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <projectDescription>
-   <name>GWTPolymerUIFramework</name>
-   <comment>GWTPolymerUIFramework project</comment>
+   <name>GWTPolymer</name>
+   <comment>GWTPolymer project</comment>
    <projects/>
    <buildSpec>
        <buildCommand>

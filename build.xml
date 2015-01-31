@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<project name="GWTPolymerUIFramework" default="build" basedir=".">
+<project name="GWTPolymer" default="build" basedir=".">
   <!-- Arguments to gwtc and devmode targets -->
   <property name="gwt.args" value="" />
 
@@ -46,7 +46,7 @@
       <arg value="war"/>
       <!-- Additional arguments like -style PRETTY or -logLevel DEBUG -->
       <arg line="${gwt.args}"/>
-      <arg value="com.sevenmindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
+      <arg value="com.sevenmindev.gwtpolymer.GWTPolymer"/>
     </java>
   </target>
 
@@ -58,13 +58,13 @@
         <pathelement location="${gwt.sdk}/gwt-codeserver.jar"/>
       </classpath>
       <arg value="-startupUrl"/>
-      <arg value="GWTPolymerUIFramework.html"/>
+      <arg value="GWTPolymer.html"/>
       <arg line="-war"/>
       <arg value="war"/>
       <!-- Additional arguments like -style PRETTY, -logLevel DEBUG or -nosuperDevMode -->
       <arg line="${gwt.args}"/>
-      <arg value="com.sevenmindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
-      <arg value="com.sevenmindev.gwtpolymeruiframework.GWTPolymerUIFramework"/>
+      <arg value="com.sevenmindev.gwtpolymer.GWTPolymer"/>
+      <arg value="com.sevenmindev.gwtpolymer.GWTPolymer"/>
     </java>
   </target>
 
@@ -136,12 +136,12 @@ Test targets suppressed because -junit argument was not specified when running w
   <target name="build" depends="gwtc" description="Build this project" />
 
   <target name="war" depends="build" description="Create a war file">
-    <zip destfile="GWTPolymerUIFramework.war" basedir="war"/>
+    <zip destfile="GWTPolymer.war" basedir="war"/>
   </target>
 
   <target name="clean" description="Cleans this project">
     <delete dir="war/WEB-INF/classes" failonerror="false" />
-    <delete dir="war/gwtpolymeruiframework" failonerror="false" />
+    <delete dir="war/gwtpolymer" failonerror="false" />
   </target>
 
 </project>

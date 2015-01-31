@@ -1,7 +1,7 @@
-package com.sevenmindev.gwtpolymeruiframework.server;
+package com.sevenmindev.gwtpolymer.server;
 
-import com.sevenmindev.gwtpolymeruiframework.client.GreetingService;
-import com.sevenmindev.gwtpolymeruiframework.shared.FieldVerifier;
+import com.sevenmindev.gwtpolymer.client.GreetingService;
+import com.sevenmindev.gwtpolymer.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**

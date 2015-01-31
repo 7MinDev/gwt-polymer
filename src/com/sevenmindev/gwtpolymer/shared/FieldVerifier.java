@@ -1,4 +1,4 @@
-package com.sevenmindev.gwtpolymeruiframework.shared;
+package com.sevenmindev.gwtpolymer.shared;
 
 /**
  * <p>
