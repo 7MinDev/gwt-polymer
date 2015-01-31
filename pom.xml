@@ -99,6 +99,7 @@
           <compileReport>true</compileReport>
           <!-- Run tests using HtmlUnit -->
           <mode>htmlunit</mode>
+			<jsInteropMode>CLOSURE</jsInteropMode>
           <!-- Tests patterns -->
           <includes>**/Test*.java,**/*Test.java,**/*TestCase.java</includes>
         </configuration>
