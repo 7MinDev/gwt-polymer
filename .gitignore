@@ -26,3 +26,12 @@ www-test/
 
 #old GWT (1.5) created this dir
 .gwt-tmp/
+
+# maven stuff
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties

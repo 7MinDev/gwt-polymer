@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GWTPolymer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="GWTPolymer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GWTPolymer:war exploded" />
+    </root>
+  </artifact>
+</component>
