@@ -133,7 +133,26 @@
           </additionalProjectnatures>
         </configuration>
       </plugin>
-
+		<plugin>
+			<artifactId>exec-maven-plugin</artifactId>
+			<groupId>org.codehaus.mojo</groupId>
+			<executions>
+				<execution><!-- Run our version calculation script -->
+					<id>Update Bower</id>
+					<phase>prepare-package</phase>
+					<goals>
+						<goal>exec</goal>
+					</goals>
+					<configuration>
+						<executable>bower</executable>
+						<workingDirectory>${basedir}/src/main/webapp/polymer/</workingDirectory>
+						<arguments>
+							<argument>update</argument>
+						</arguments>
+					</configuration>
+				</execution>
+			</executions>
+		</plugin>
     </plugins>
   </build>
 </project>

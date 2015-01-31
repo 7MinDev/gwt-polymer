@@ -21,22 +21,19 @@ The component has to be added to the `src/main/webapp/GWTPolymer.html`, here:
 <link rel="import" href="/polymer/bower_components/core-toolbar/core-toolbar.html">
 ```
 
+After that run the `package` Maven task to update the dependencies for the `war` directory:
+
+```
+mvn package
+```
+
 TODO: add manual for writing java polymer stub (like `CoreIconButton`)
 
 # Run Locally
 
 ## Install / Update
 
-Install / update polymer via Bower (has to be run each time the Bower dependencies change):
-
-TODO put this step into the `package` Maven task
-
-```
-cd src/main/webapp/polymer
-bower update
-```
-
-Run once (and every time you change something in the `war` directory):
+Run initially and every time you change something in the `war` directory or add a new Polymer component:
 
 ```
 mvn package       # generate a .war package ready to deploy
