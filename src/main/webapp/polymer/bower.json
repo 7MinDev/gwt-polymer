@@ -1,0 +1,22 @@
+{
+  "name": "polymer",
+  "version": "0.5.4",
+  "homepage": "https://github.com/7MinDev/gwt-polymer",
+  "authors": [
+    "Thorben Egberts <thorben.egberts@plentymarkets.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4",
+    "core-toolbar": "Polymer/core-toolbar#~0.5.4",
+    "core-icon-button": "Polymer/core-icon-button#~0.5.4",
+    "core-drawer-panel": "Polymer/core-drawer-panel#~0.5.4"
+  }
+}

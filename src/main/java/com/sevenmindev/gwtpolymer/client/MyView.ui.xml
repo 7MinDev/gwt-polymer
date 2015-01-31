@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder     
+    xmlns:gwt="urn:import:com.google.gwt.user.client.ui"
+    xmlns:ui="urn:ui:com.google.gwt.uibinder">
+
+  <ui:with
+      field="res"
+      type="com.sevenmindev.gwtpolymer.client.GWTPolymerResources" />
+
+  <gwt:HTMLPanel>
+	 <core-toolbar class="{res.css.toolbar}">
+	    <core-icon-button ui:field="menuButton" icon="menu" />
+	    <div flex="" />
+	    <core-icon-button ui:field="starButton" src="{res.star.getSafeUri}"/>
+	  </core-toolbar>
+	 <core-drawer-panel ui:field="drawerPanel">
+	    <div drawer="" class="{res.css.drawer}">
+	      Drawer
+	    </div>
+	    <div main="" class="{res.css.main}">
+	      Narrow this window to use the drawer toggle button.<br/>
+	      Widen this window to open the drawer out automatically.
+	    </div>
+	  </core-drawer-panel>
+  </gwt:HTMLPanel>
+</ui:UiBinder>

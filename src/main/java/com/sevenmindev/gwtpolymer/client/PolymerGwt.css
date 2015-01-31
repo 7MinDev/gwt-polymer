@@ -1,0 +1,18 @@
+.toolbar {
+	background: lightyellow;
+  z-index: 10;	
+}
+
+.drawer {
+	background: lightblue;
+}
+
+.main {
+	background: lightgreen;
+}
+
+.drawer, .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
