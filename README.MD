@@ -46,6 +46,8 @@ Run debug mode:
 mvn gwt:run       # run development mode
 ```
 
+A window will appear. Hit the "Launch Default Browser" button or "Copy to clipboard" and use another browser. If you changed something, you need to reload the page to recompile.
+
 Run tests:
 
 ```
